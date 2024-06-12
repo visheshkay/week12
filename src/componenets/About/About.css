@@ -1,0 +1,24 @@
+.background-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://img.freepik.com/free-photo/back-school-concept-books-colored-pencils-clock_155003-3676.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+  }
+  
+  .para{
+      color: azure;
+      font-size: 2rem;
+      font-style: bold;
+  }
